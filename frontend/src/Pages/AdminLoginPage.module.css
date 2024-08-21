@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .containeradmin {
+    display: flex;
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .loginSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: #001F3F;
+    color: white;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .inputContainer {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    outline: none;
+  }
+  
+  .buttonContainer {
+    width: 100%;
+  }
+  
+  .buttonadmin {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .buttonadmin:hover {
+    background: linear-gradient(to right, #0053b3, #1f86ff);
+    transform: scale(1.02);
+  }
+  
